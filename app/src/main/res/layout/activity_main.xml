@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WhatsUpChat 2026"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1A1C1E" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+        
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTargetUid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste Friend UID (32 Digits)" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnAddFriend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add Friend & Unlock Chat"
+        android:layout_marginTop="12dp"
+        style="@style/Widget.Material3.Button.TonalButton" />
+</LinearLayout>
+      
